@@ -1,6 +1,6 @@
-import "./globals.css"
+import "@/styles/globals.css"
 
-import Home from "./(home)/page.tsx"
+import Home from "@/(home)/page"
 
 import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
