@@ -7,8 +7,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "start": "vite preview",
-    "format": "biome format --write .",
-    "lint": "biome check --write ."
+    "lint": "biome check --error-on-warnings"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
